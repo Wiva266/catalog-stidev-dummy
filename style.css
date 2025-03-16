@@ -385,12 +385,12 @@ main {
     background-size: cover;
 }
 
-/* .grid-gallery .div4 .content-gallery {
-    background: url(images/dummy.jpg);
+.grid-gallery .div4 .content-gallery {
+    background: url(img-project/surya-eytho.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
 .grid-gallery .div5 .content-gallery {
     background: url(img-project/william-eytho.png);
@@ -508,7 +508,7 @@ main {
     .grid-gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-rows: repeat(8, 1fr);
     }
 
     .grid-gallery > div {
@@ -531,7 +531,7 @@ main {
     .grid-gallery {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(14, 1fr);
+        grid-template-rows: repeat(15, 1fr);
         gap: 20px;
     }
 
